@@ -15,7 +15,7 @@ if (isset($_SESSION["user"])) {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container register-container">
         <?php
         if (isset($_POST["submit"])) {
            $fullName = $_POST["fullname"];
@@ -78,7 +78,7 @@ if (isset($_SESSION["user"])) {
         <div id="avatar">
           <img src="https://cdn-icons-png.flaticon.com/512/295/295128.png" alt="img">
         </div>
-        <form action="register.php" method="post">
+        <form action="register.php" method="post" >
             <div class="form-group">
                 <input type="text" class="form-control" name="fullname" placeholder="Full Name:">
             </div>
