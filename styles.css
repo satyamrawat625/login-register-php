@@ -1,0 +1,52 @@
+body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+
+/* login page */
+
+.header{
+    text-align: center;
+    padding-bottom: 10px;
+    height: 20%;
+}
+
+#avatar{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#avatar img{
+    height: 20%;
+    width: 20%;
+}
+.login-btn input{
+    width: 100%;
+}
+.register-btn input{
+    width: 100%;
+}
+.register-btn{
+    margin-bottom: 10px;
+}
+
+.login-btn{
+    padding-bottom: 20px;
+}
+.login-img{
+    margin-bottom: 20px;
+}
+.login-img img{
+    border-radius: 100%;
+    width: 225px;
+    height: 200px;
+
+}
